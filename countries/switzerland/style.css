@@ -8,30 +8,44 @@ body {
 }
 
 .wrapper {
-    position: relative;
     display: flex;
 }
 
 .flag {
     width: 600px;
     height: 300px;
-    position: relative;
     box-shadow: 0px 0px 100px 1px rgb(145, 128, 145);
     background-color: transparent;
     margin: 200px auto;
     border-style: solid;
 }
 
-.white {
+.red {
     width: 100%;
-    height: 50%;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    background: white;
+    background-color: red;
 }
 
-.red {
+.crosswhite1 {
+    background-color: white;
+    height: 70px;
+    margin: auto;
+    margin-top: 110px;
+}
+
+/* .crosswhite2 {
+    background-color: white;
+    height: 300px;
+    width: 70px;
+    margin: auto;
+    margin-top: -180px;
+} */
+
+
+/* .red {
     width: 70%;
     height: 50%;
     position: absolute;
@@ -39,15 +53,15 @@ body {
     left: 0;
     margin-left: 180px;
     background-color: red;
-}
+} */
 
 /* Blue part */
 
-.overlay {
+/* .overlay {
     z-index: 1;
     width: 0;
     height: 0;
     border-top: 150px solid transparent;
     border-left: 250px solid blue;
     border-bottom: 150px solid red;
-}
+} */
